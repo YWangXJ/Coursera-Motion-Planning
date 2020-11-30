@@ -39,9 +39,9 @@ Folder "*OccupancyGrid*" contains the python code for Occupancy Grid Generation.
 The Path Planning project is in Folder *PathPlanning*, which contains path planning algorithms Dijkstra and A*.
 ### Dijkstra
 Dijkstra's search algorithm is implemented on a road network graph. The following figure is the psuedocode of the Dijkstra's search algorithm.
-![Psuedocode](\PathPlanning\dijkstra.png)
+![Psuedocode](./PathPlanning/dijkstra.png)
 
 ### A*_star*
 A* search algorithm is implemented using a Euclidean heuristic on a road network graph.
 The following figure is the psuedocode of the A* search algorithm.
-![Psuedocode](\PathPlanning\a_star.png)
+![Psuedocode](./PathPlanning/a_star.png)
