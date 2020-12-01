@@ -28,6 +28,9 @@ The path selection portion of the project evaluates an objective function in *se
 
 ### Velocity Profile Generation (velocity_planner.py)
 This velocity planner will not handle all edge cases, but will handle stop signs, lead dynamic obstacles, as well as nominal lane maintenance. This is all captured in the *compute_velocity_profile()*. Physics functions at the end of the file will be used for velocity planning.  
+### Results
+Following figure shows the vehicle path : yellow line is the controlled vehicle, gree line is the centerline of road, blue crosses is a parked vehicle (static obstacle), red dot is the stop sign.
+![traj](./Course4FinalProject/controller_output/trajectory.png)
 
 ## Occupancy Grid Generation
 Folder "*OccupancyGrid*" contains the python code for Occupancy Grid Generation. The code implements following modules:
